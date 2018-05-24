@@ -135,12 +135,26 @@ var reverse = function(string) {
     r1 = '';
     return holder;
   }
-  r1 += (current);
+  r1 += current;
   return reverse(copy.slice(0,-1));
 };
 
 // 10. Write a function that determines if a string is a palindrome.
+var r2 = '';
 var palindrome = function(string) {
+  var copy = string.slice().replace(' ','').toLowerCase();
+  var current = copy[copy.length-1];
+  if (current === undefined){
+    var holder = r2.slice();
+    r2 = '';
+    if (holder[0] === holder[holder.length-1] || holder.length === 1){
+      return true;
+    } else {
+      return false;
+    }
+  }
+  r2 += current;
+  return palindrome(copy.slice(0,-1));
 };
 
 // 11. Write a function that returns the remainder of x divided by y without using the
