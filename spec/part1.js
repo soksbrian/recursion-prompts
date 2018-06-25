@@ -5,7 +5,7 @@
 
   describe('Exercises in Recursion', function() {
 
-    describe('1. Factorial', function() {
+    xdescribe('1. Factorial', function() {
       var originalFactorial;
 
       before(function() {
@@ -52,7 +52,7 @@
 
 
 
-    describe('2. Sum of Integers', function() {
+    xdescribe('2. Sum of Integers', function() {
       var originalSum;
 
       before(function() {
@@ -120,7 +120,7 @@
 
 
 
-    describe('3. Sum Integers in Array', function() {
+    xdescribe('3. Sum Integers in Array', function() {
       var originalArraySum;
 
       before(function() {
@@ -190,7 +190,7 @@
 
 
 
-    describe('4. Check if Even', function() {
+    xdescribe('4. Check if Even', function() {
       var originalIsEven;
 
       before(function() {
@@ -248,7 +248,7 @@
 
 
 
-    describe('5. Sum Below', function() {
+    xdescribe('5. Sum Below', function() {
       var originalSumBelow;
 
       before(function() {
@@ -299,7 +299,7 @@
 
 
 
-    describe('6. Integer Range', function() {
+    xdescribe('6. Integer Range', function() {
       var originalRange;
 
       before(function() {
@@ -358,7 +358,7 @@
 
 
 
-    describe('7. Compute Exponent', function() {
+    xdescribe('7. Compute Exponent', function() {
       var originalExponent;
 
       before(function() {
@@ -444,7 +444,7 @@
 
 
 
-    describe('8. Power of Two', function() {
+    xdescribe('8. Power of Two', function() {
       var originalPowerOfTwo;
 
       before(function() {
@@ -493,7 +493,7 @@
 
 
 
-    describe('9. Reverse String', function() {
+    xdescribe('9. Reverse String', function() {
       var originalReverse;
 
       before(function() {
@@ -541,7 +541,7 @@
 
 
 
-    describe('10. Palindrome', function() {
+    xdescribe('10. Palindrome', function() {
       var originalPalindrome;
 
       before(function() {
@@ -599,7 +599,7 @@
 
 
 
-    describe('11. Modulo', function() {
+    xdescribe('11. Modulo', function() {
       var originalModulo;
 
       before(function() {
